@@ -1,45 +1,49 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header, footer {
+/* Apply background color to header */
+header {
     background-color: #333;
     color: #fff;
     padding: 10px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: #333;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
+/* Apply background color to footer */
+footer {
+    background-color: #333;
     color: #fff;
+    padding: 10px;
 }
 
-main {
-    padding: 20px;
-}
-
+/* Apply border, margin, and padding to section */
 section {
-    margin-bottom: 20px;
-}
-
-/* Custom Styles */
-.custom-border {
     border: 1px solid #333;
     margin: 10px;
+    padding: 10px;
+}
+
+/* Apply background color and padding to navigation links */
+nav a {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Apply custom formatting using a class */
+.custom-border {
+    border: 2px solid #f00;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Apply background color and padding to unordered list */
+ul {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+/* Apply background color and padding to ordered list */
+ol {
+    background-color: #f0f0f0;
     padding: 10px;
 }
