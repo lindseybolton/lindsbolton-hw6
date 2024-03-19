@@ -16,7 +16,6 @@ footer {
 section {
     border: 1px solid #333;
     margin: 10px;
-    padding: 10px;
 }
 
 /* Apply background color and padding to navigation links */
@@ -38,12 +37,6 @@ nav a {
 
 /* Apply background color and padding to unordered list */
 ul {
-    background-color: #f0f0f0;
-    padding: 10px;
-}
-
-/* Apply background color and padding to ordered list */
-ol {
     background-color: #f0f0f0;
     padding: 10px;
 }
